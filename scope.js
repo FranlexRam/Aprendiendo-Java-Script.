@@ -1,3 +1,6 @@
+// Scope GLOBAL:
+
+
 var nombre = "JavaScript"
 
 function saludar(){
@@ -5,3 +8,15 @@ function saludar(){
 }
 
 saludar()
+
+
+// Scope local:
+
+
+function saludo() {
+    var nombre = "Andres"
+    console.log(nombre)
+}
+
+saludo()
+console.log(nombre)
