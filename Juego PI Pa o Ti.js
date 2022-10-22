@@ -50,4 +50,4 @@ var resultado = function (Jugador1, CPU) {
     }
 }
 
-resultado (Ti,Pi);
+resultado (Ti,Pi);//CPU gano!!
