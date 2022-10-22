@@ -60,3 +60,23 @@ if (edad === 18) {
 } else {
     console.log("No puedes votar");
 }//No puedes votar
+
+
+
+
+//Operador ternario:
+
+// var nombre = condicion ? true : false;
+
+
+var numero = 2;
+
+var resultado = numero === 2 ? "Hola, soy un dos" : "NO soy un dos";
+console.log(resultado);//Como la variable "numero" es igual a 2, se imprime: Hola, soy un dos
+
+
+var numero = 3;
+
+var resultado = numero === 2 ? "Hola, soy un dos" : "NO soy un dos";
+console.log(resultado);//Como la variable "numero" no es estrictamente igual a 2, se imprime: NO soy un dos;
+
