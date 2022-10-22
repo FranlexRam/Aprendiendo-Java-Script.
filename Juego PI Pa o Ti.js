@@ -21,3 +21,33 @@ var resultado = function (yo,pc) {
 }
 
 resultado (Pi,Pa);
+
+
+
+
+
+
+
+//Practica hecha por mi:
+var Pi = "piedra";
+var Pa = "papel";
+var Ti = "tijera";
+
+var resultado = function (Jugador1, CPU) {
+    if (Jugador1 != CPU){
+        if (Jugador1 === Pi && CPU === Ti) {
+            console.log("Jugador 1 gano con " + Pi);
+        } else if (Jugador1 === Pa && CPU === Pi) {
+            console.log("Jugador 1 gano con " + Pa);
+        } else if (Jugador1 === Ti && CPU === Pa) {
+            console.log("Jugador 1 gano con " + Ti);
+        } else {
+            console.log("CPU gano!!");
+        }
+
+    }else if (Jugador1 === CPU) {
+        console.log("Empate");
+    }
+}
+
+resultado (Ti,Pi);
