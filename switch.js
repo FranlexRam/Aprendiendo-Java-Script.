@@ -59,3 +59,31 @@ function semaforo(color) {
     }
   }
   semaforo("Verde");
+
+
+
+
+
+
+
+
+  //codigo practica:
+
+  var numero = 1;
+
+  switch (numero) {
+    case 1:
+      console.log("Soy un 1");
+      break;
+    case 10:
+      console.log("Soy un 10");
+      break;
+    case 100:
+      console.log("Soy un cien wey!");
+      break;
+    default:
+      console.log("No soy NADIE");
+
+    }
+    
+  
