@@ -15,7 +15,7 @@ function semaforo(color) {
         break
       }
       default: {
-        console.log("¡No reconozco ese color! :(")
+        console.log("No conozco ese color!");
       }
     }
   }
@@ -87,3 +87,6 @@ function semaforo(color) {
     }
     
   
+
+
+    
