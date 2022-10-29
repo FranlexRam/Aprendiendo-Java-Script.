@@ -27,3 +27,30 @@ miAuto.detalle(); // f detalle()
 miAuto.color = "rojo"
 //o
 miAuto["color"] = "rojo"
+
+//Modificar una propiedad
+
+miAuto["marca"] = "Ford";
+//o
+miAuto.marca = "Ford;"
+
+//Eliminar una propiedad
+
+delete miAuto["marca"];
+//o
+delete miAuto.marca;
+
+
+
+//THIS:
+
+var miAuto={
+    marca:"Toyota",
+    modelo:"Corolla",
+    annio:"2020",
+    detalle: function (){
+        console.log(`Auto ${this.modelo} ${this.annio}`);
+    }
+}
+miAuto.detalle();
+//Auto Corolla 2020
