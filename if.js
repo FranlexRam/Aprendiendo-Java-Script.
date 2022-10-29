@@ -40,7 +40,7 @@ if (edad === 18) {
 }//Puedes votar por 1era vez
 
 
-var edad = 26;
+var edad = Number(prompt("Ingresa tu edad"));
 
 if (edad === 18) {
     console.log("Puedes votar por 1era vez");
