@@ -32,11 +32,19 @@ var resultado = function (yo,pc){
         console.log("Es um empate");
     }
 }
-var num1 = 5;
-var num2 = 7;
-var num3 = 3;
-var average = avg(num1,num2,num3);
 
-function avg(x,y,z) {
+
+
+
+
+
+function main (){
+    var num1;
+    var num2;
+    var num3;
+    var average = avg(num1,num2,num3);
+    console.log(average);
+}
+function avg (x,y,z) {
     return (x+y+z)/3
 }
