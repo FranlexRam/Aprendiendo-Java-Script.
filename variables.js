@@ -1,3 +1,6 @@
+//Una variable es la representacion de un espacio en memoria.
+
+
 var nombre = "Oscar"; // string.
 
 // declarar una variable.

@@ -1,3 +1,6 @@
+//Un array es una estructura de datos de tipo objeto
+
+
 //Para conocer la cantidad de elementos dentro de un array:
 
 var array = [1,2,3,4,5,6];

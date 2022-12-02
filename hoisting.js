@@ -1,3 +1,5 @@
+//El HOISTING es cuando las declaraciones de variables y funciones se procesan antes de ejecutar cualquier codigo.
+
 var miNombre; // Declarar una variable.
 miNombre = "Diego" // Iniciar una variable.
 

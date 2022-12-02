@@ -1,3 +1,6 @@
+//Coercion es el proceso de convertir el valor de un tipo a otro.
+
+
 //Coercion implicita: js interpreta a su manera.
 
 var a = 4 + "7";
