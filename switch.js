@@ -19,7 +19,7 @@ function semaforo(color) {
       }
     }
   }
-  
+  //llamando a la funcion 'semaforo:
   semaforo("verde") //'¡Sigue!'
 
 

@@ -12,11 +12,11 @@ console.log(frutas);//(4) ["Manzana","Platano", "Cereza","Fresa"]
 console.log(frutas[0]);//Manzana
 console.log(frutas [2]);//Cereza
 
-//Para agregar mas elementos al final del array:
+//Para agregar mas elementos al final del array: .PUSH
 var frutas = ["Manzana","Platano", "Cereza","Fresa"];
 var masFrutas = frutas.push("Uvas");
 console.log(frutas);
 
-//Para quitar ultimo elemento:
+//Para quitar ultimo elemento: .POP
 var ultimo = frutas.pop("Uvas");
 console.log(frutas);

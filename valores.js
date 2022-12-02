@@ -1,7 +1,7 @@
-40
+40 // tipo numero
 
-"Franlex Ramirez"
+"Franlex Ramirez" // tipo string
 
-true
+true   //tipo boolean
 false
 

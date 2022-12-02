@@ -1,7 +1,7 @@
 // Scope GLOBAL:
 
 
-var nombre = "JavaScript"
+var nombre = "JavaScript" //scope global
 
 function saludar(){  // a partir del momento en el que se inicia una funcion, comienza un scope local.
     console.log("Hola " + nombre)
