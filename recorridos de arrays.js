@@ -16,7 +16,7 @@ var articulos = [
 
 
 
-  //**Metodo FILTER genera un nuevo array sin modificar el original y FILTRA por condicion.
+  //1)**Metodo FILTER genera un nuevo array sin modificar el original y FILTRA por condicion.
   var articulosFiltrados = articulos.filter(function(articulo){
     return articulo.costo <= 500;
   });
@@ -25,7 +25,7 @@ var articulos = [
 
 
 
-  //**Metodo MAP genera un nuevo array sin modificar el original y "mapea todos los elementos dentro del array".
+  //2)**Metodo MAP genera un nuevo array sin modificar el original y "mapea todos los elementos dentro del array".
   var nombreArticulos = articulos.map(function (articulo) {
     return articulo.nombre;
   })
@@ -34,7 +34,7 @@ var articulos = [
 
 
 
-  //**Metodo FIND valida true o false si el parametro existe o no.
+  //3)**Metodo FIND valida true o false si el parametro existe o no. Retorna el 1er elemento de un array que cumple con una condicion definida en un nuevo array.
   var algunArticulo = articulos.find(function(articulo){
     return (articulo.nombre === "Laptop");
   });
@@ -43,7 +43,7 @@ var articulos = [
 
 
 
-  //**Metodo forEach, no genera un nuevo array.
+  //4)**Metodo forEach, no genera un nuevo array. Ejecuta la funcion indicada una vez por cada elemento del array.
   articulos.forEach(function(articulo){
     console.log(articulo.nombre);
   });
@@ -57,7 +57,7 @@ var articulos = [
 
 
 
-/* **Metodo SOME, consiste en retornar un valor lógico verdadero si existe al menos
+/*5) **Metodo SOME, consiste en retornar un valor lógico verdadero si existe al menos
 un elemento que cumpla la condición establecida en la función (callback).*/
 
 //EJEMPLO: saber si existe al menos un artículo con el costo menor o igual que 700.
