@@ -1,3 +1,8 @@
+/*Que es una funcion? Es un conjunto de acciones que nos permitirá reutilizar en nuestro código y
+siempre deben devolver un resultado. Podemos crear diferentes funciones con parámetros distintos y
+luego utilizar la información para realizar un evento o acción dentro de nuestro código.*/
+
+
 // ***Funciones Declarativas: No es anonima ya que se le esta colocando un nombre.
 
 function miFuncion() {

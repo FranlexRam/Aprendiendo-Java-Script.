@@ -1,3 +1,7 @@
+//Un condicional es una expresion que nos permite evaluar si algo es true o false.
+
+
+
 if (true) {
     console.log("Hola, soy verdadero");
 }// Hola, soy verdadero
@@ -40,15 +44,10 @@ if (edad === 18) {
 }//Puedes votar por 1era vez
 
 
-var edad = Number(prompt("Ingresa tu edad"));
 
-if (edad === 18) {
-    console.log("Puedes votar por 1era vez");
-} else if (edad > 18) {
-    console.log("Puedes votar de nuevo");
-} else {
-    console.log("No puedes votar");
-}//Puedes votar de nuevo
+
+
+
 
 
 var edad = 17;

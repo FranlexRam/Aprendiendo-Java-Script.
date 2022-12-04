@@ -1,3 +1,8 @@
+//Que es un bucle? Ciclo que se repite hasta que se cumpla una condicion.
+//Tipos de bucles: For, While, etc.
+
+
+
 //**Usar BUCLE for en texto
 
 var estudiantes = ["Maria","Pedro","Luis","Gilberto"];
